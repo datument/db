@@ -1,0 +1,21 @@
+{
+    "name": "datument/db",
+    "description": "Database interface.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fenzland",
+            "email": "uukoo@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "datument/query": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Datument\\DB\\": "src/"
+        }
+    }
+}
